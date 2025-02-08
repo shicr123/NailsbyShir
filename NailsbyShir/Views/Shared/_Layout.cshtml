@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Hobby - @ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="icon" href="~/images/favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/calculator.js" defer></script>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="@Url.Action("Index", "Home")">Home</a> |
+        <a href="@Url.Action("Calculator", "Home")">Calculator</a>
+    </nav>
+</header>
+
+<main role="main">
+    @RenderBody()
+</main>
+
+<footer>
+    <p>&copy; 2025 Shirley Cruz - Hobby Web App</p>
+</footer>
+</body>
+</html>

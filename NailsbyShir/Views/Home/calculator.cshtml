@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Tutoring Calculator";
+}
+
+<h1>Calculate Your Tutoring Cost</h1>
+
+<div class="container">
+    <label for="hours">Enter Hours Needed:</label>
+    <input type="number" id="hours" min="1" placeholder="Enter number of hours">
+
+    <label for="rate">Hourly Rate:</label>
+    <input type="text" id="rate" value="25" readonly>
+
+    <button id="calculate">Calculate</button>
+
+    <p>Total Cost: $<span id="total">0</span></p>
+</div>
