@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-  background: #333;
+  background: pink;
   padding: 10px;
 }
 
@@ -43,3 +43,21 @@ button {
 button:hover {
   background: #555;
 }
+
+.small-image {
+  max-width: 300px;  /* Adjust to your preferred size */
+  height: auto;      /* Keep aspect ratio */
+  display: block;    /* Prevent extra space */
+  margin: 10px auto; /* Center the image */
+  border-radius: 10px; /* Optional: Rounded corners */
+}
+
+
+p {
+  font-size: 1.2em;  /* Slightly larger text */
+  text-align: center;  /* Centers the text */
+  line-height: 1.6;  /* Adds some spacing between lines for better readability */
+  margin: 40px auto;  /* Adds margin at the top and bottom, centers horizontally */
+  max-width: 80%;  /* Optional: restricts the width of the paragraph */
+}
+
